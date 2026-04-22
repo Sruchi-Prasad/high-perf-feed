@@ -1,17 +1,66 @@
-# high_perf_feed
+# High Performance Feed App
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This is a Flutter app where I built a simple Instagram-like feed using Supabase as backend. The main focus of this project was to make the app smooth and efficient.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* Infinite scrolling feed (loads posts in parts)
+* Pull to refresh
+* Like button with instant update (optimistic UI)
+* Hero animation when opening a post
+* Detail screen with better image quality
+* Basic error handling (like offline case)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Performance Improvements
+
+* Used `RepaintBoundary` to avoid unnecessary UI redraws
+* Used `memCacheWidth` to reduce image memory usage
+* Only thumbnails are shown in feed for better performance
+
+---
+
+## State Management
+
+* Used Riverpod
+* Managed feed data using StateNotifier
+
+---
+
+## Tech Used
+
+* Flutter
+* Riverpod
+* Supabase
+
+---
+
+## Demo
+
+(Add your screen recording link here)
+
+---
+
+## How to Run
+
+```bash
+flutter pub get
+flutter run
+```
+
+---
+
+## Note
+
+This project was made as part of an assignment to understand performance optimization and smooth UI handling in Flutter.
+
+---
+
+## Author
+
+Sruchi Prasad
