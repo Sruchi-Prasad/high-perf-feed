@@ -42,7 +42,7 @@ This is a Flutter app where I built a simple Instagram-like feed using Supabase 
 
 ## Demo
 
-(Add your screen recording link here)
+https://drive.google.com/file/d/1aYWmmfqyOIyiRhZG_779S8WQpHMcvWGD/view?usp=sharing
 
 ---
 
